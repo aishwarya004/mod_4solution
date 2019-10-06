@@ -1,0 +1,21 @@
+<table class ="table table-striped">
+<thread>
+<tr>
+  <th>Name</th>
+  <th>short name</th>
+  <th>Description</th>
+  <th>Price</th>
+  </tr>
+  </<thead>
+
+  <tbody>
+    <tr ng-repeat="categoriesItem in $ctrl.items">
+      <td> {{categoriesItem.name}}</td>
+      <td>{{categoriesItem.short_name}}</td>
+      <td>{{categoriesItem.description}} </td>
+      <td>{{categoriesItem.price_large|currency}} </td>
+      </tr>
+      <tbody>
+        </<table>
+
+      
